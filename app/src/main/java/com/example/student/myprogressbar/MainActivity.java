@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
 import java.io.BufferedInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
@@ -23,10 +24,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+
 public class AndroidDownloadFileByProgressBarActivity extends Activity {
 
     // button to show progress dialog
-    Button btnShowProgress
+    Button btnShowProgress;
 
     // Progress Dialog
     private ProgressDialog pDialog;
@@ -59,3 +61,22 @@ public class AndroidDownloadFileByProgressBarActivity extends Activity {
             }
         });
     }
+    /**
+     * Showing Dialog
+     * */
+    @Override
+    protected Dialog onCreateDialog(int id) {
+        switch (id) {
+            case progress_bar_type:
+                pDialog = new ProgressDialog(this);
+                pDialog.setMessage("Downloading file. Please wait...");
+                pDialog.setIndeterminate(false);
+                pDialog.setMax(100);
+                pDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+                pDialog.setCancelable(true);
+                pDialog.show();
+                return pDialog;
+            default:
+                return null;
+        }
+    }}
