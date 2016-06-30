@@ -1,5 +1,9 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">progressbar</string>
+=======
+    <string name="app_name">myprogressbar</string>
+>>>>>>> 90925362339eb31f45e0da38201d6430ba779865
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>

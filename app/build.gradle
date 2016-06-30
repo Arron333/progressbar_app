@@ -5,7 +5,11 @@ android {
     buildToolsVersion "23.0.0"
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "com.example.student.progressbar"
+=======
+        applicationId "com.example.student.myprogressbar"
+>>>>>>> 90925362339eb31f45e0da38201d6430ba779865
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 1

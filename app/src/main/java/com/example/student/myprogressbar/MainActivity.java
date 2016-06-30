@@ -1,5 +1,4 @@
-
-package com.example.student.progressbar;
+package com.example.student.myprogressbar;
 
 import java.io.BufferedInputStream;
 import java.io.FileOutputStream;
@@ -19,8 +18,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.R;
-public class progressbar extends Activity {
+
+public class MainActivity extends Activity {
 
     // button to show progress dialog
     Button btnShowProgress;
