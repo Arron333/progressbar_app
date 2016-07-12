@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/progressbar.iml" filepath="$PROJECT_DIR$/progressbar.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/myprogressbar.iml" filepath="$PROJECT_DIR$/myprogressbar.iml" />
->>>>>>> 90925362339eb31f45e0da38201d6430ba779865
     </modules>
   </component>
 </project>
